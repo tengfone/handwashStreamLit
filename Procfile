@@ -1,2 +1,1 @@
-release: chmod u+x setup.sh && ./setup.sh
-web: streamlit run app.py
+web: chmod u+x setup.sh && ./setup.sh && streamlit run app.py
