@@ -68,8 +68,8 @@ testpath==0.4.4
 threadpoolctl==2.1.0
 toml==0.10.2
 toolz==0.11.1
-torch==1.7.0+cpu
-torchvision==0.8.1+cpu
+torch==1.8.1
+torchvision==0.9.1
 tornado==6.1
 traitlets==5.0.5
 typing-extensions==3.10.0.0
