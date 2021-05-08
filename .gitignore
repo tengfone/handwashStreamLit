@@ -137,4 +137,4 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-machine_learning/model
+machine_learning/model/alexnet_128.pt
