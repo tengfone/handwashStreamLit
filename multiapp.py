@@ -59,7 +59,7 @@ class MultiApp:
         
         Visit [Github](https://github.com/huiwen99/HandWash) for Model Report   
         
-        Visit [GitHub](https://github.com/tengfone/) for UI
+        Visit [GitHub](https://github.com/tengfone/handwashStreamLit) for UI
         """)
 
         app['function']()
