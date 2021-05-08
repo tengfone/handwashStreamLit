@@ -1,12 +1,25 @@
 import streamlit as st
 from multiapp import MultiApp
 from apps import home, data, model, demo  # import your app modules here
+import os
+import urllib.request
 
 st.set_page_config(
     page_title="Handwashing WHO DL",
     layout="centered",
     initial_sidebar_state="collapsed",
 )
+
+# Check for ALEXNET MODEL
+allModels = list()
+for (dirpath, dirnames, filenames) in os.walk('./machine_learning/model'):
+    for i in filenames:
+        allModels.append(i)
+    break
+
+if('alexnet_128.pt' not in allModels):
+    url = 'https://storage.googleapis.com/dl-big-project/alexnet_128.pt'
+    urllib.request.urlretrieve(url, './machine_learning/model/alexnet_128.pt')
 
 app = MultiApp()
 
