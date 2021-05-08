@@ -130,8 +130,8 @@ def app():
     st.write("""
             # Uploading Custom Files
             
-            Please compile everything all the videos into a single .zip file.   
-            There are pre-loaded demo files in Running the Model.
+            Please compile all the custom video(s) into a single .zip file.   
+            There are pre-uploaded demo files in `Running the Model`.
             """)
 
     zip_file = st.file_uploader("Upload zipped Videos", type=['zip'])
