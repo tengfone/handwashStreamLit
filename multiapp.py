@@ -56,6 +56,7 @@ class MultiApp:
         - [Loh De Rong](https://github.com/derong97)
         - [Joey Yeo Kailing](https://github.com/joyobo)
         - [Yeh Swee Khim](https://github.com/YehSweeKhim)
+        - [Koh Hui Wen](https://github.com/huiwen99)
         
         Visit [Github](https://github.com/huiwen99/HandWash) for Model Report   
         
