@@ -2,6 +2,12 @@ import streamlit as st
 from multiapp import MultiApp
 from apps import home, data, model, demo  # import your app modules here
 
+st.set_page_config(
+    page_title="Handwashing WHO DL",
+    layout="centered",
+    initial_sidebar_state="collapsed",
+)
+
 app = MultiApp()
 
 st.write("""
