@@ -47,6 +47,10 @@ class MultiApp:
             format_func=lambda app: app['title'])
 
         # Sidebar
+        st.sidebar.header("Demo")
+        st.sidebar.markdown("""
+        Use ```Navigation``` > ```Demo```  
+        """)
         st.sidebar.header("About")
         st.sidebar.markdown("""
         This project is done for SUTD AY2021 *50.039:Theory and Practice of Deep Learning*   
