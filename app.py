@@ -7,7 +7,7 @@ import urllib.request
 st.set_page_config(
     page_title="Handwashing WHO DL",
     layout="centered",
-    initial_sidebar_state="collapsed",
+    initial_sidebar_state="auto",
 )
 
 # Check for ALEXNET MODEL
