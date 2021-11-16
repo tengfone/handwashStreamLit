@@ -2,7 +2,7 @@ import streamlit as st
 from multiapp import MultiApp
 from apps import home, data, model, demo  # import your app modules here
 import os
-import urllib.request
+import gdown
 
 st.set_page_config(
     page_title="Handwashing WHO DL",
@@ -18,8 +18,9 @@ for (dirpath, dirnames, filenames) in os.walk('./machine_learning/model'):
     break
 
 if('alexnet_128.pt' not in allModels):
-    url = 'https://storage.googleapis.com/dl-big-project/alexnet_128.pt'
-    urllib.request.urlretrieve(url, './machine_learning/model/alexnet_128.pt')
+    url = 'https://drive.google.com/uc?id=1LbgP9dy2D02qs_wW8c8Ymkc9-JX3aNk_'
+    output = './machine_learning/model/alexnet_128.pt'
+    gdown.download(url, output, quiet=False)
 
 app = MultiApp()
 
